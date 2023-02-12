@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #060822;
+}
+input {
+    /* display: block; */
+    min-width: 20rem;
+    height: 1.4rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-color: #fff;
+    background-image: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem 0 0 0.4rem;
+    -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 / 8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  }
+  input,
+input:focus,
+input:active,
+input:active:focus {
+  border: none;
+  padding: 1.5rem 1.5rem;
+  outline: none;
+}
+input {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+input:focus {
+  -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+}
+.eachItem {
+    background: #fff;
+    padding: 0.2rem .5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-left: 1rem;
+    min-width: 30rem;
+    word-break: break-word;
+    background: rgb(85, 41, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .m-20{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+  .eachItem:hover {
+    background: rgb(249, 249, 252);
+    color: rgb(85, 41, 220);
+  }
+
+  .butn {
+    height:3rem;
+    padding: 1.15rem 1.2rem;
+    font-size: 1.8rem;
+    /* line-height: 1.42857143; */
+    margin-top: 2rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 45px; */
+    border-radius: 0 0.4rem 0.4rem 0;
+    border-style: none;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* width: 100%; */
+  }
+  .butn:hover {
+    text-decoration: none;
+  }
+  .bg-butn{
+    background-color: rgb(85, 41, 220);
+    /* width: 20px; */
+    font-size: 20px;
+  }
+  
